@@ -94,8 +94,8 @@ void WKT_Interrupt(uint8_t u8WKTINT)
 {
     switch (u8WKTINT)
     {
-        case Disable: DISABLE_WKT_INTERRUPT;
-        case Enable: ENABLE_WKT_INTERRUPT;
+        case Disable: DISABLE_WKT_INTERRUPT; break;
+        case Enable: ENABLE_WKT_INTERRUPT; break;
     }
 }
 
