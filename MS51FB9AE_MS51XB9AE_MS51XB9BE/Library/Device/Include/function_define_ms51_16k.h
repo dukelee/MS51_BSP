@@ -681,7 +681,7 @@ typedef __bit                 BIT;
 #define    PWM0_EDGE_TYPE                    PWMCON1&=0xEF
 #define    PWM0_CENTER_TYPE                  PWMCON1|=0x10      
 /*      PWM mode define   */
-#define    PWM0_IMDEPENDENT_MODE             PWMCON1&=0x3F
+#define    PWM0_INDEPENDENT_MODE             PWMCON1&=0x3F
 #define    PWM0_COMPLEMENTARY_MODE           PWMCON1&=0x3F;PWMCON1|=0x40 
 #define    PWM0_SYNCHRONIZED_MODE            PWMCON1&=0x3F;PWMCON1|=0x80 
 #define    PWM0_GP_MODE_ENABLE               PWMCON1|=0x20
